@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #20232a;
+    width: 100%;
+    z-index: 1;
+    box-sizing: inherit;
+   align-items: center;
+
+}
+.con_logo{
+    font-size: 1.8em;
+    margin-left: 5%;
+    color: #78dce8;
+
+}
+.cont_login{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+/* li{
+    text-decoration: none;
+    float: left;
+    padding-right: 2em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    
+}
+ul{
+    list-style-type: none;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+li:hover{
+    
+    color:#78dce8;
+    transition: 50ms;
+}
+img{
+    height: 40px;
+    padding-right: 2em;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    
+}
+img:hover{
+    fill: #78dce8;
+    background-color: #78dce8;
+}
+
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+} */

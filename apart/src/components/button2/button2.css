@@ -1,0 +1,8 @@
+.button2{
+    font-size: 0.8em;
+    transition: 0.3s;
+}
+.button2:hover{
+    color: #78dce8;
+
+}

@@ -1,0 +1,16 @@
+button{
+    font-size: 1.2em;
+    background-color: rgba(201, 153, 153, 0);
+    border: none;
+    margin-right: 1.3em;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+img{
+    height: 40px;
+    cursor: pointer;
+}
+button:hover{
+    color:#78dce8;
+}
