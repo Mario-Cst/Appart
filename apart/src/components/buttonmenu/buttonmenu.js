@@ -11,6 +11,10 @@ const MenuButton = () => {
             <Button2 text="Rutas"/>
             <Button2 text="Control Horario"/>
             <Button2 text="Calendario"/>
+            <div>
+            <Button2 text="Mi Perfil"/>
+            </div>
+            
 
         </div>
 

@@ -1,6 +1,6 @@
 .container_menu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #5b595c;
     width:100%;
 }

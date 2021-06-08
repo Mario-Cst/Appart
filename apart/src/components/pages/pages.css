@@ -1,0 +1,33 @@
+.PageContainer{
+    font-weight: bold;
+    width: 100%;
+}
+.PageTitulo{
+    display: flex;
+    height: max-content;
+    font-weight: bold;
+}
+.Submenu{
+    background-color: #5b595c;
+    width: 100%;
+}
+.true_content{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.table {
+    height: 800px;
+    width: 600px;
+    background-color: rgb(4, 179, 4);
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    height: 800px;
+    width: 600px;
+    background-color: rgb(4, 51, 179);
+    display: flex;
+    justify-content: space-around;
+}

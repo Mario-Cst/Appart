@@ -3,9 +3,10 @@ import './App.css';
 import MenuButton from './components/buttonmenu/buttonmenu';
 import Landing from "./components/landing/landing";
 import NavBar from './components/navbar/navbar';
-import UserPage from "./components/userpage/userpage";
-import VanPage from "./components/vanpage/vanpage";
-import DispPage from "./components/disppage/dispage"
+import UserPage from "./components/pages/userpage";
+import VanPage from "./components/pages/vanpage";
+import DispPage from "./components/pages/dispage";
+import RutasPage from "./components/pages/rutaspage";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
           <Route path="/disp">
             <MenuButton/>
             <DispPage/>
+          </Route>
+          <Route path="/rutas">
+            <MenuButton/>
+            <RutasPage/>
           </Route>
           <Route path="/">
             <Landing/>
